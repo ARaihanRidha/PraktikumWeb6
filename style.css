@@ -1,0 +1,183 @@
+div{
+    display: block;
+    padding: 10px;
+    justify-content: end;
+    align-items: center; }
+div>h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+div>ul{
+       justify-content:flex-end;
+       align-items:flex-start;
+       padding-right: 10px;}
+header div{
+    background-color:white;
+    width: 100%;
+    align-items: start;}
+.header-container{
+    align-items:flex-start;}
+div.hello {
+    text-align:center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    padding-left: 100px;
+    font-size: 50px;
+    padding-top: 80px;}
+p{
+    color: rgb(165, 163, 160);}
+div.rip{    
+    display:flex;
+    justify-content: center;}
+div.tabel{
+    align-items: center;
+    width: 100%;}
+div.container{
+    align-content: center;
+    height:100px;
+    width: 100px;
+    justify-content: flex-start;}
+img{
+    max-width: 80%;
+    height: auto;}
+.Galeri{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px 20px auto;
+    align-items: center;
+    padding-right: 0px;
+    grid-column-gap: 5px;
+    grid-row-gap:40px ;
+    padding-left: 50px;}
+.Galeri img{
+    width:100%;
+    height:100%;
+    object-fit:fill;
+    align-items: center;
+    padding-right: 0px;
+    border: 0px;
+    background-color: #252525;
+    transform: scale(120%);}
+div.footer{
+    text-align: center;
+    align-content: center;
+    margin-top: 130px;}
+.container-fluid .navbar {
+    padding: 30px 8%;}
+.navbar-brand {
+    font-size: 34px;
+    font-weight: 900;}
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:hover {
+    color: #252525;}
+.dropdown-menu > li > a {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #555;}
+.navbar-light .navbar-nav .nav-link {
+    padding-right: 16px;
+    padding-left: 16px;}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #252525;}
+.navbar-light .navbar-nav > .active > a,
+.navbar-light .navbar-nav > .active > a:focus, 
+.navbar-light .navbar-nav > .active > a:hover {
+    color: #252525;
+    background-color: transparent;}
+.navbar-toggler > .i1{
+    top:9px;}
+.navbar-toggler > .i2{
+    top:17px;}
+.navbar-toggler > .i3{
+    top:25px;}
+.navbar-toggler.active > .i2{
+    opacity:0;}
+.navbar-toggler.active > .i1,
+.navbar-toggler.active > .i3{
+    top:17px;}
+.navbar-toggler.active > .i1{
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);}
+.navbar-toggler.active > .i3{
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg);}
+.navbar-toggler {
+    position: relative;
+    width: 50px;
+    height: 40px;}
+.navbar-toggler > .icon-bar {
+    position: absolute;
+    width: 30px;
+    left: 10px;
+    margin: 0 !important;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    background-color: #888;
+    height: 3px;}
+    .controls button {
+        background-color: transparent;
+        border-radius: 25px;
+        padding: 10px 25px;
+        color: #7C7C7C;
+        cursor: pointer;
+        border: 1px solid transparent;
+        font-family: 'Playfair Display', serif;}
+    .controls button:hover, .controls button.mixitup-control-active {
+        border: 1px solid #656565;
+        border-radius: 25px;
+        color: #656565;}
+    .controls {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 10px;}
+    .controls button:focus {
+        outline: none;}
+.navbar-nav .active{
+    color: #ccc;
+    border: 1px solid;
+    border-radius:15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Playfair Display', serif;}
+.navbar-brand{
+    font-family: 'Playfair Display', serif;}
+h2{
+    font-family: 'Playfair Display', serif;}
+p{
+    font-family: 'Playfair Display', serif;}
+b{
+    font-family: 'Playfair Display', serif;}
+#navbarDefault{
+    color: rgb(165, 163, 160);}
+.borders div {
+    z-index: 9999;
+    pointer-events: none;
+    background-color: transparent;
+    border-color: #252525;
+    border-style: solid;
+    height: 90px;
+    position: fixed;
+    width: 90px;}
+.brTR {
+    border-width: 15px 15px 0 0;
+    right: 0;
+    top: 0;}
+.brTL {
+    border-width: 15px 0 0 15px;
+    top: 0;
+    left: 0;}
+.brBL {
+    border-width: 0 0 15px 15px;
+    bottom: 0;
+    left: 0;}
+.brBR {
+    border-width: 0 15px 15px 0;
+    bottom: 0;
+    right: 0;}
